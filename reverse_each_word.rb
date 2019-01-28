@@ -7,5 +7,5 @@ def reverse_each_word(sentence)
     reverse.push(new_word)
   end
 
-  return reverse
+  return reverse.join(' ')
 end
