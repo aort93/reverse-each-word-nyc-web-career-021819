@@ -3,6 +3,9 @@ def reverse_each_word(sentence)
   reverse = []
 
   words.each do |word|
-    
+    new_word = word.reverse()
+    reverse.push(new_word)
   end
+
+  return reverse
 end
